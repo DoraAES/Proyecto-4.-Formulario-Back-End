@@ -1,0 +1,63 @@
+html{
+    font-size:62.5%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background-image: url(../img/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    body {
+        width: auto;
+    }
+}
+.titulo {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+}
+h2 {
+    font-size: 2rem;
+    color: black;
+    font-weight: 400;
+}
+.boton-enviar {
+    background-color: rgb(238, 72, 6);
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+#contenido {
+    box-shadow: 2px 6px 4px #000;
+    background-color: rgb(241, 153, 52);
+	padding: 2rem;
+	border-radius: 1rem;
+    opacity: 80%;
+}
+.campo {
+    padding: 1rem;
+    margin-bottom: 8px;
+}
+.campo_text,
+.campo_select {
+    background: rgb(241, 162, 43);
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+.forma-ficha {
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1rem;
+    border-radius: 1rem;
+}
